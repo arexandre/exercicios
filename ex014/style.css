@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+
+body {
+    background-color: #b9bcc7;
+    font-family: roboto, Arial, sans-serif;
+    font-size: 1em;
+    margin: 15px;
+}
+
+h1 {
+    font-family: tangerine, serif;
+    font-size: 4.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+nav {
+    background-color: #424447;
+    color: white;
+    padding: 10px 5px 10px 0px;
+    border-radius: 10px;
+}
+
+nav > a { 
+    /*color: inherit;*/      
+    font-size: 1.27em;
+    text-decoration: underline;
+    text-decoration-color: #8496D1;
+}
+.nav:hover {
+    background-color: #8496D1;
+    color: white;
+    border-radius: 2px;
+}
+
+main {
+    background-color: #8A8C94;
+    padding: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+main > h2 {
+    background-color: white;
+    width: 225px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+section {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+a {
+    color: inherit;     
+    font-size: 1.27em;
+    text-decoration: underline;
+    text-decoration-color: #8496D1;
+}
+
+a:hover {
+    color: #8496D1;
+}
+
+aside {
+    text-align: right;
+}
+
+footer {
+    background-color: #424447;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.borda {
+    border-radius: 10px;
+}
+
+#main {
+    padding-left: 10px;
+}
+
+#primeira {
+    margin-top: 1px;
+}
+
+#programa {
+    align-self: center;
+}
+
+#programa > h2 {
+    background-color: white;
+    width: 260px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.paginas > a {
+    height: 20px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 50%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: Barbie;
+        src: url('/home/alexandre/Documentos/Curso em Vídeo/html-css/exercicios/ex012/font/dollie_script/DollieScript_PersonalUse.ttf') format('truetype');
+    }
+    body{
+     background-color: #e0218a;   
+     font-family: Barbie, Arial, sans-serif;
+     font-weight: normal;
+    }
+    h1 {
+        font-size: 6em;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+    }
+    .p {
+        font-size: 3em;
+    }
+
+    a:visited {
+        color:white;
+    }
+
+    a:hover {
+        color: #fadce6;
+    }
+    a:active {
+        color: #dce0fa;
+    }
+
+    a::after{
+        content: ' [oir, alour]';
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a::before {
+        content: ' - ';
+    }
+    
+button {
+    background-color: #fadce6;
+    color: white;
+}
+
+    button:hover {
+color: #e0218a;
+    }
+
+p {
+    color: white;
+    font-size: 3em;
+}
+    

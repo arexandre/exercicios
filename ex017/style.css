@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@400;500&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,22 +16,33 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: Caprasimo, serif;
 }
 
 header > h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-variant: normal;
+    font-size: 8vw;
 }
 
-header > p {
-    padding-bottom: 50px;
-}
 
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: Nunito, sans-serif;
+    font-size: 5vw;
+}
+
+section .texto {
+    max-width: 70vw;
+}
+
+section div .texto{
+    max-width: 30vw;
+    background-color: red;
 }
 
 section.normal {
@@ -40,9 +53,10 @@ section.normal {
 section.imagem {
     background-color: #515151;
     color: white;
+    background-attachment: fixed;
 }
 
-section imagem{
+section img{
     width: 400px;
     background-color: #00000025;
 }
@@ -62,4 +76,19 @@ footer {
     color: white;
     text-align: center;
     padding: 10px; 
+    font-size: 3.5vw;
+}
+
+#img01 {
+    background-image: url(https://c.pxhere.com/photos/da/d0/amusement_park_blue_sky_clouds_daytime_entertainment_fun_high_low_angle_shot-1517733.jpg!d);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(https://c1.wallpaperflare.com/preview/610/1020/938/sunset-beach-coconut-tree-mar-sol-beira-mar.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

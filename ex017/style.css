@@ -54,6 +54,7 @@ section.imagem {
     background-color: #515151;
     color: white;
     background-attachment: fixed;
+    box-shadow: 1px 1px ;
 }
 
 section img{
